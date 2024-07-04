@@ -1,0 +1,6 @@
+POST http://localhost:8081/kafka/publish
+Content-Type: application/json
+
+{
+  "message": "Esta é uma mensagem de exemplo para o Kafka"
+}
